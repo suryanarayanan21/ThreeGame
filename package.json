@@ -7,11 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suryanarayanan21/ThreeGame.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "A Suryanarayanan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "gsap": "^3.5.1",
     "three": "^0.120.1"
   }
 }
