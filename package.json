@@ -4,7 +4,7 @@
   "description": "Short game concept made using WebGL via ThreeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js"
   },
   "repository": {
@@ -18,5 +18,8 @@
     "express": "^4.17.1",
     "gsap": "^3.5.1",
     "three": "^0.120.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
